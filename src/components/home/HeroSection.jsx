@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const HeroSection = () => {
   return (
-    <div>HeroSection</div>
-  )
-}
+    <div>
+      <p>The Ultimate guide to global markets</p>
+    </div>
+  );
+};
 
-export default HeroSection
+export default HeroSection;

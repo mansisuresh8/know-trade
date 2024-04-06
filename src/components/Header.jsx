@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <section className="px-20 py-8">
+    <section className="px-20 py-8 ">
       <div className="flex justify-between items-center">
         <Link href={"/"}>
           <div className="w-32">
@@ -16,18 +16,19 @@ const Header = () => {
             />
           </div>
         </Link>
-        <div className="hidden lg:flex justify-center items-center gap-6 text-xl">
-          <p>About</p>
-          <p>Courses</p>
-          <p>Contact Us</p>
+        <div className="flex justify-center items-center px-8 gap-8">
+          <div className="flex justify-center items-center gap-6 text-xl">
+            <p>About</p>
+            <p>Courses</p>
+            <p>Contact Us</p>
+          </div>
+          <section className="hidden lg:block">
+            <div className="bg-[#FF8CF1] text-white rounded-full border border-orange-6 px-8 py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+              <button className="font-bold">Register</button>
+            </div>
+          </section>{" "}
         </div>
-        <section className="hidden lg:block">
-        <div className="bg-[#FF9426] text-white rounded-full border border-orange-6 px-4 py-1 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-          <button className="font-bold">Order Now</button>
-        </div>
-      </section>
       </div>
-   
     </section>
   );
 };
