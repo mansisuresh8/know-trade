@@ -50,6 +50,7 @@ const HeroSection = () => {
         </div>
       </section>
 
+      {/* About */}
       <section>
         <div className="flex justify-center items-center px-20 py-20 gap-4">
           <Link href={"/"}>
@@ -77,7 +78,24 @@ const HeroSection = () => {
               experienced trader or competely new to it, we’re here to help you
               find freedom in the financial markets.
             </p>
+            <div className="bg-[#FF8CF1] text-white rounded-full border px-4 py-2 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+              <button className="font-bold">Know More</button>
+            </div>
           </div>
+        </div>
+      </section>
+
+      {/* Courses  */}
+      <section className="bg-[#FF8CF1] px-8 py-8 flex justify-between items-center">
+        <div>
+          <p>Our popular Courses</p>
+          <p>
+            A course providing advance knowledge to students making them
+            profitable independent traders. Learn what it takes to become a
+            profitable trader. With hours of extensive training & mentorship, we
+            help you navigate you through the steps of your journey to financial
+            freedom.
+          </p>
         </div>
       </section>
     </section>
