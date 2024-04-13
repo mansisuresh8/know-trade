@@ -168,15 +168,51 @@ const HeroSection = () => {
         </div>
       </div>
 
-
       {/* WHY CHOOSE US? */}
 
-      <div>
-        <p>WHY CHOOSE US?WHY CHOOSE US?</p>
-        <p>Various versions have evolved over the years, sometimes by accident,</p>
+      <div className="flex justify-center items-center py-20">
+        <div>
+          <p>WHY CHOOSE US?</p>
+          <p>
+            Various versions have evolved over the years, sometimes by accident,
+          </p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-3 gap-4 px-20">
+      <Link href={"/"}>
+            <div className="w-full">
+              <Image
+                src={"/images/home/why-choose-us-1.png"}
+                height={500}
+                width={200}
+                className="object-contain w-full"
+              />
+            </div>
+          </Link>
+          <Link href={"/"}>
+            <div className="w-full">
+              <Image
+                src={"/images/home/why-choose-us-2.png"}
+                height={500}
+                width={200}
+                className="object-contain w-full"
+              />
+            </div>
+          </Link>
+          <Link href={"/"}>
+            <div className="w-full">
+              <Image
+                src={"/images/home/why-choose-us-3.png"}
+                height={500}
+                width={200}
+                className="object-contain w-full"
+              />
+            </div>
+          </Link>
+        
       </div>
     </section>
-    
   );
 };
 
