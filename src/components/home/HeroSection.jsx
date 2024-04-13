@@ -102,6 +102,29 @@ const HeroSection = () => {
           </p>
         </div>
       </section>
+
+      {/* Mentors */}
+
+      <section className="flex justify-center items-center">
+        <div className="">
+          <p>Mentors</p>
+          <p>Meet the mentors who will guide you throughout your entire journey.</p>
+        </div>
+        <section>
+        <div>
+        <Link href={"/"}>
+            <div className="w-full">
+              <Image
+                src={"/images/home/mentors-1.png"}
+                height={500}
+                width={200}
+                className="object-contain w-full"
+              />
+            </div>
+          </Link>
+        </div>
+        </section>
+      </section>
     </section>
   );
 };
