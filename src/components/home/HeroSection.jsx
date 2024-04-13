@@ -105,14 +105,18 @@ const HeroSection = () => {
 
       {/* Mentors */}
 
-      <section className="flex justify-center items-center">
-        <div className="">
-          <p>Mentors</p>
-          <p>Meet the mentors who will guide you throughout your entire journey.</p>
-        </div>
-        <section>
+      <div className="flex justify-center items-center py-20">
         <div>
-        <Link href={"/"}>
+          <p>Mentors</p>
+          <p>
+            Meet the mentors who will guide you throughout your entire journey.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div className="flex justify-between items-center px-20 py-20">
+          <Link href={"/"}>
             <div className="w-full">
               <Image
                 src={"/images/home/mentors-1.png"}
@@ -122,10 +126,57 @@ const HeroSection = () => {
               />
             </div>
           </Link>
+          <div>
+            <p>Been trading in the Indian and Forex Market for 3+years. </p>
+            <p>Trained & Mentored more than 500+ students. </p>
+            <p>NSE certified Options & Equity Derivatives Trader. </p>
+            <p>Successfully Handling portfolio worth $250000. </p>
+            <p>
+              Focussed on creating a diverse educational platform enabling
+              traders from all
+            </p>
+            <p>
+              Backgrounds to reach their potential in the financial markets.
+            </p>
+          </div>
         </div>
-        </section>
-      </section>
+      </div>
+
+      <div className="flex justify-between items-center px-20 py-20">
+        <div>
+          <p>Been trading in the Indian and Forex Market for 3+years. </p>
+          <p>Trained & Mentored more than 500+ students. </p>
+          <p>NSE certified Options & Equity Derivatives Trader. </p>
+          <p>Successfully Handling portfolio worth $250000. </p>
+          <p>
+            Focussed on creating a diverse educational platform enabling traders
+            from all
+          </p>
+          <p>Backgrounds to reach their potential in the financial markets.</p>
+        </div>
+        <div className=" ">
+          <Link href={"/"}>
+            <div className="w-full">
+              <Image
+                src={"/images/home/mentors-2.png"}
+                height={500}
+                width={200}
+                className="object-contain w-full"
+              />
+            </div>
+          </Link>
+        </div>
+      </div>
+
+
+      {/* WHY CHOOSE US? */}
+
+      <div>
+        <p>WHY CHOOSE US?WHY CHOOSE US?</p>
+        <p>Various versions have evolved over the years, sometimes by accident,</p>
+      </div>
     </section>
+    
   );
 };
 
