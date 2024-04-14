@@ -1,12 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section>
-      <div className="flex justify-between items-center">
-        <div className="text-6xl font-semibold  px-28 py-20">
+    <section className="h-screen flex flex-col justify-between items-center w-full">
+      <div className="relative flex justify-between items-center w-full h-full px-20 py-20">
+        <div className="text-6xl font-semibold ">
           <p className="">THE ULTIMATE GUIDE</p>
           <p className="py-4">
             TO <span className="text-[#FF8CF1]">GLOBAL MARKETS</span>
@@ -26,224 +25,38 @@ const HeroSection = () => {
             </div>
           </section>
         </div>
-        <div className="py-20">
-          <Link href={"/"}>
-            <div className="w-full">
-              <Image
-                src={"/images/home/hero-section-2.png"}
-                height={500}
-                width={500}
-                className="object-contain w-full"
-              />
-            </div>
-          </Link>{" "}
-        </div>
-      </div>
-      <section className="bg-[#FF8CF1] px-8 py-8 flex justify-between items-center">
-        <div className="grid grid-cols-3 grid-rows-2 ">
-          <p className=" text-5xl font-bold">5+</p>
-          <p className=" text-5xl font-bold">2000+</p>
-          <p className=" text-5xl font-bold">3000+</p>
-          <p>5+ Years of Trading Experience</p>
-          <p>Mentored 2000 Students Across the world</p>
-          <p>A Community of 3000+ Succesfull Traders</p>
-        </div>
-      </section>
-
-      {/* About */}
-      <section>
-        <div className="flex justify-center items-center px-20 py-20 gap-4">
-          <Link href={"/"}>
-            <div className="w-full">
-              <Image
-                src={"/images/home/about-1.png"}
-                height={500}
-                width={200}
-                className="object-contain w-full"
-              />
-            </div>
-          </Link>
-          <section className="px-8 py-4 ">
-            <div className="px-8 py-4 ">
-              <p>ABOUT KNOWTRADE</p>
-              <p>
-                We At KNOWTRADE Aim To Help Traders Around The World To Reach
-                Their Trading Potential In Global Markets. Over The Past 3
-                Years, We Have Mentored More Than +500 Students To Help Them
-                Become Profitable Traders Across The Markets.
-              </p>
-              <p>
-                We help you get the potential to generate financial returns on
-                both rising and falling prices across forex, indices,
-                commodities, shares, oil, metals, and cryptocurrencies. Whether
-                you’re an experienced trader or competely new to it, we’re here
-                to help you find freedom in the financial markets.
-              </p>
-              <section className="w-full py-8">
-                <div className="bg-[#FF8CF1] text-white rounded-full border px-14 py-4 w-52 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-                  <button className="font-bold">Know More</button>
-                </div>
-              </section>
-            </div>
-          </section>
-        </div>
-      </section>
-
-      {/* Courses  */}
-      <section className="bg-[#FF8CF1] px-8 py-8 flex justify-between items-center">
-        <div>
-          <p>Our popular Courses</p>
-          <p>
-            A course providing advance knowledge to students making them
-            profitable independent traders. Learn what it takes to become a
-            profitable trader. With hours of extensive training & mentorship, we
-            help you navigate you through the steps of your journey to financial
-            freedom.
-          </p>
-        </div>
-      </section>
-
-      {/* Mentors */}
-
-      <div className="flex justify-center items-center py-20">
-        <div>
-          <p>Mentors</p>
-          <p>
-            Meet the mentors who will guide you throughout your entire journey.
-          </p>
-        </div>
-      </div>
-
-      <div>
-        <div className="flex justify-between items-center px-20 py-20">
-          <Link href={"/"}>
-            <div className="w-full">
-              <Image
-                src={"/images/home/mentors-1.png"}
-                height={500}
-                width={200}
-                className="object-contain w-full"
-              />
-            </div>
-          </Link>
-          <div>
-            <p>Been trading in the Indian and Forex Market for 3+years. </p>
-            <p>Trained & Mentored more than 500+ students. </p>
-            <p>NSE certified Options & Equity Derivatives Trader. </p>
-            <p>Successfully Handling portfolio worth $250000. </p>
-            <p>
-              Focussed on creating a diverse educational platform enabling
-              traders from all
-            </p>
-            <p>
-              Backgrounds to reach their potential in the financial markets.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex justify-between items-center px-20 py-20">
-        <div>
-          <p>Been trading in the Indian and Forex Market for 3+years. </p>
-          <p>Trained & Mentored more than 500+ students. </p>
-          <p>NSE certified Options & Equity Derivatives Trader. </p>
-          <p>Successfully Handling portfolio worth $250000. </p>
-          <p>
-            Focussed on creating a diverse educational platform enabling traders
-            from all
-          </p>
-          <p>Backgrounds to reach their potential in the financial markets.</p>
-        </div>
-        <div className=" ">
-          <Link href={"/"}>
-            <div className="w-full">
-              <Image
-                src={"/images/home/mentors-2.png"}
-                height={500}
-                width={200}
-                className="object-contain w-full"
-              />
-            </div>
-          </Link>
-        </div>
-      </div>
-
-      {/* WHY CHOOSE US? */}
-
-      <div className="flex justify-center items-center py-20">
-        <div>
-          <p>WHY CHOOSE US?</p>
-          <p>
-            Various versions have evolved over the years, sometimes by accident,
-          </p>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-3 gap-4 px-20">
-        <Link href={"/"}>
-          <div className="w-full">
+        <div className="absolute  flex justify-end items-center w-full bottom-0 right-0">
+          <div className="w-2/3">
             <Image
-              src={"/images/home/why-choose-us-1.png"}
+              src={"/images/home/hero-section-2.png"}
+              alt=""
               height={500}
-              width={200}
+              width={500}
               className="object-contain w-full"
             />
           </div>
-        </Link>
-        <Link href={"/"}>
-          <div className="w-full">
-            <Image
-              src={"/images/home/why-choose-us-2.png"}
-              height={500}
-              width={200}
-              className="object-contain w-full"
-            />
-          </div>
-        </Link>
-        <Link href={"/"}>
-          <div className="w-full">
-            <Image
-              src={"/images/home/why-choose-us-3.png"}
-              height={500}
-              width={200}
-              className="object-contain w-full"
-            />
-          </div>
-        </Link>
-      </div>
-
-      {/* Student Feedback */}
-
-      <div className="bg-[#FF8CF1] px-8 py-8 flex justify-between items-center">
-        <div>
-          <p>Student Feedback</p>
-          <p>
-            Various versions have evolved over the years, sometimes by accident.
-          </p>
-        </div>
-        <div className="grid grid-cols-2 gap-4">
-          <p></p>
         </div>
       </div>
-
-      <div className="flex justify-between items-center">
-        <div className="flex justify-center items-center px-20 py-20">
-          <Link href={"/"}>
-            <div className="w-full">
-              <Image
-                src={"/images/home/join-world.png"}
-                height={500}
-                width={200}
-                className="object-contain w-full"
-              />
+      <section className="bg-gradient-to-l to-[#FF8CF1] from-[#992FFF] w-full">
+        <div className="flex justify-center items-center w-full container px-4 lg:px-20 py-16 ">
+          <div className="flex justify-between items-center gap-8 w-full">
+            <div className="flex flex-col justify-center items-center gap-1">
+              <p className=" text-5xl font-bold">5+</p>
+              <p>5+ Years of Trading Experience</p>
             </div>
-          </Link>
+
+            <div className="flex flex-col justify-center items-center gap-1">
+              <p className=" text-5xl font-bold">2000+</p>
+              <p>Mentored 2000 Students Across the world</p>
+            </div>
+
+            <div className="flex flex-col justify-center items-center gap-1">
+              <p className=" text-5xl font-bold">3000+</p>
+              <p>A Community of 3000+ Succesfull Traders</p>
+            </div>
+          </div>
         </div>
-        <div className="px-40">
-          <p>Join World's largest learning platform today</p>
-          <p>Start learning by registering for free</p>
-        </div>
-      </div>
+      </section>
     </section>
   );
 };
