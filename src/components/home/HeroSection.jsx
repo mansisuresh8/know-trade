@@ -38,8 +38,8 @@ const HeroSection = () => {
         </div>
       </div>
       <section className="bg-gradient-to-l to-[#FF8CF1] from-[#992FFF] w-full">
-        <div className="flex justify-center items-center w-full container px-4 lg:px-20 py-16 ">
-          <div className="flex justify-between items-center gap-8 w-full">
+        <div className="flex justify-center items-center w-full  py-16 ">
+          <div className="flex justify-between items-center gap-8 w-full container px-4 lg:px-20">
             <div className="flex flex-col justify-center items-center gap-1">
               <p className=" text-5xl font-bold">5+</p>
               <p>5+ Years of Trading Experience</p>

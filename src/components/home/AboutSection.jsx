@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <section className="flex justify-center items-center">
       <div className="container px-4 lg:px-20 ">
-        <div className="flex justify-center items-center px-20 py-20 gap-4">
+        <div className="flex justify-center items-center py-20 gap-4">
           <div className="w-full">
             <Image
               src={"/images/home/about-1.png"}
