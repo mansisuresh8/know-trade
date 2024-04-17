@@ -9,7 +9,7 @@ const MentorsSection = () => {
           <div className="flex justify-center items-center py-20">
             <div >
               <p className="text-5xl font-semibold text-center text-[#992FFF] py-4">Mentors</p>
-              <p className="text-lg">
+              <p className="text-xl">
                 Meet the mentors who will guide you throughout your entire
                 journey.
               </p>

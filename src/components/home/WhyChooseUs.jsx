@@ -8,8 +8,8 @@ const WhyChooseUs = () => {
         <div className="flex flex-col justify-center items-center py-20 gap-4">
           <div className="flex justify-center items-center py-20">
             <div>
-              <p>WHY CHOOSE US?</p>
-              <p>
+              <p className="text-5xl font-semibold text-center py-4">WHY <span className=" text-[#992FFF]">CHOOSE US?</span></p>
+              <p className="text-xl">
                 Various versions have evolved over the years, sometimes by
                 accident,
               </p>
