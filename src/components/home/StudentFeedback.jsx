@@ -79,8 +79,8 @@ const StudentFeedback = () => {
 
       <section className="flex justify-center items-center">
         <div className="container px-4 lg:px-20 ">
-          <div className="flex justify-center items-center py-20 gap-4">
-            <div className="w-full">
+          <div className="flex justify-center items-center py-20 gap-4 w-full">
+            <div className="">
               <Image
                 src={"/images/home/join-world.png"}
                 alt=""
@@ -90,15 +90,16 @@ const StudentFeedback = () => {
               />
             </div>
 
-            <section className="px-8 py-4">
-              <div className="px-8 py-4">
-                <div className="text-5xl font-bold">
-                  <p className="">
-                    Join World's largest learning platform today
+            <section className="px-8 py-4 ">
+              <div className="px-8 py-4 ">
+                <div className="">
+                  <p className="text-5xl font-semibold">
+                    <span className="text-fuchsia-500">Join</span> World's <br />
+                    largest learning <br /> platform today
                   </p>
                 </div>
 
-                <p className="text-lg py-6">
+                <p className="text-2xl py-8">
                   Start learning by registering for free
                 </p>
 
