@@ -23,7 +23,7 @@ const CoursesSection = () => {
           </div>
 
           <div className="w-full lg:w-2/3">
-            <div className="grid grid-cols-3 ">
+            <div className="grid grid-cols-3 gap-8 w-full">
               <div className="bg-white text-black rounded-lg px-4 py-6 ">
                 <div className="w-full">
                   <Image
@@ -39,7 +39,7 @@ const CoursesSection = () => {
                     <p className="text-[#6A25C5] text-xl">Trading 101</p>
                     <p>( Beginner )</p>
                   </div>
-                  <div  className="flex justify-start  items-start">
+                  <div className="flex justify-start  items-start">
                     <div className="w-32">
                       <img src="/images/home/star.png" alt="" />
                     </div>
@@ -49,12 +49,77 @@ const CoursesSection = () => {
                     <div className="flex justify-between items-center ">
                       <p className="text-xl text-red-600 font-bold">₹6,999/-</p>
                       <section className="w-full px-20">
-                      <div className="bg-gradient-to-l from-violet-500 to-fuchsia-500 text-white rounded-full border text-center py-2 w-20  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-                        <button className="font-bold">Buy</button>
-                      </div>
-                    </section>
+                        <div className="bg-gradient-to-l from-violet-500 to-fuchsia-500 text-white rounded-full border text-center py-2 w-20  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+                          <button className="font-bold">Buy</button>
+                        </div>
+                      </section>
                     </div>
-                   
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white text-black rounded-lg px-4 py-6 ">
+                <div className="w-full">
+                  <Image
+                    src={"/images/home/courses-section-3.png"}
+                    alt=""
+                    height={500}
+                    width={500}
+                    className="object-contain w-full"
+                  />
+                </div>
+                <div>
+                  <div className="flex flex-col justify-between items-start py-4">
+                    <p className="text-[#6A25C5] text-xl">Trading 101</p>
+                    <p>( Beginner )</p>
+                  </div>
+                  <div className="flex justify-start  items-start">
+                    <div className="w-32">
+                      <img src="/images/home/star.png" alt="" />
+                    </div>
+                    <p className="px-2">(15)</p>
+                  </div>
+                  <div className="">
+                    <div className="flex justify-between items-center ">
+                      <p className="text-xl text-red-600 font-bold">₹6,999/-</p>
+                      <section className="w-full px-20">
+                        <div className="bg-gradient-to-l from-violet-500 to-fuchsia-500 text-white rounded-full border text-center py-2 w-20  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+                          <button className="font-bold">Buy</button>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white text-black rounded-lg px-4 py-6 ">
+                <div className="w-full">
+                  <Image
+                    src={"/images/home/courses-section-3.png"}
+                    alt=""
+                    height={500}
+                    width={500}
+                    className="object-contain w-full"
+                  />
+                </div>
+                <div>
+                  <div className="flex flex-col justify-between items-start py-4">
+                    <p className="text-[#6A25C5] text-xl">Trading 101</p>
+                    <p>( Beginner )</p>
+                  </div>
+                  <div className="flex justify-start  items-start">
+                    <div className="w-32">
+                      <img src="/images/home/star.png" alt="" />
+                    </div>
+                    <p className="px-2">(15)</p>
+                  </div>
+                  <div className="">
+                    <div className="flex justify-between items-center ">
+                      <p className="text-xl text-red-600 font-bold">₹6,999/-</p>
+                      <section className="w-full px-20">
+                        <div className="bg-gradient-to-l from-violet-500 to-fuchsia-500 text-white rounded-full border text-center py-2 w-20  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+                          <button className="font-bold">Buy</button>
+                        </div>
+                      </section>
+                    </div>
                   </div>
                 </div>
               </div>

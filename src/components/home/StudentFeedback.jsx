@@ -14,7 +14,7 @@ const StudentFeedback = () => {
             </p>
           </div>
         </section>
-        <section className="grid grid-cols-2 gap-4">
+        <section className="grid grid-cols-2 gap-4 w-full">
           <div className="flex justify-start items-start flex-col bg-white text-black border shadow-md rounded-2xl p-4">
             <div className="flex justify-between items-center gap-80">
               <div>

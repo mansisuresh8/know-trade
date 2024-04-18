@@ -17,12 +17,12 @@ const WhyChooseUs = () => {
           </div>
 
           <div className="grid grid-cols-3 gap-4 w-full">
-            <div className="flex justify-center items-centerw-full bg-red-500">
+            <div className="flex justify-center items-centerw-full bg-red-500 w-full">
               <Image
                 src={"/images/home/why-choose-us-1.png"}
                 alt=""
                 height={500}
-                width={200}
+                width={500}
                 className="object-contain w-full"
               />
             </div>
