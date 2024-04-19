@@ -33,16 +33,23 @@ const Footer = () => {
         </div>
       </div>
       <section className="flex flex-row justify-between items-center bg-[#B64AFC] w-full px-20 py-4">
-        <div className="flex justify-between items-start w-1/2">
-          <p className="underline underline-offset-4 text-lg">Privacy Policy</p>
-          <p className="underline underline-offset-4 text-lg">
-            Terms of Service
-          </p>
-          <p className="underline underline-offset-4 text-lg">
-            Cookies Settings
-          </p>
-          <div className="flex justify-between items-end">
-            <p className="text-lg">Copyright © 2022 GridUp. All rights reserved.</p>
+        <div className="flex justify-between items-center w-full">
+          <div className="flex justify-center items-center gap-4">
+            <p className="underline underline-offset-4 text-lg">
+              Privacy Policy
+            </p>
+            <p className="underline underline-offset-4 text-lg">
+              Terms of Service
+            </p>
+            <p className="underline underline-offset-4 text-lg">
+              Cookies Settings
+            </p>
+          </div>
+
+          <div className="flex justify-center items-center">
+            <p className="text-lg">
+              Copyright © 2022 GridUp. All rights reserved.
+            </p>
           </div>
         </div>
       </section>

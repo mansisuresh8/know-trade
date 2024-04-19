@@ -60,7 +60,7 @@ const CoursesSection = () => {
               <div className="bg-white text-black rounded-lg px-4 py-6 ">
                 <div className="w-full">
                   <Image
-                    src={"/images/home/courses-section-3.png"}
+                    src={"/images/home/courses-section-2.png"}
                     alt=""
                     height={500}
                     width={500}
@@ -93,7 +93,7 @@ const CoursesSection = () => {
               <div className="bg-white text-black rounded-lg px-4 py-6 ">
                 <div className="w-full">
                   <Image
-                    src={"/images/home/courses-section-3.png"}
+                    src={"/images/home/courses-section-2.png"}
                     alt=""
                     height={500}
                     width={500}
