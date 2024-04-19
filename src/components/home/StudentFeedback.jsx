@@ -117,7 +117,7 @@ const StudentFeedback = () => {
               <div className="px-8 py-4 ">
                 <div className="">
                   <p className="text-5xl font-semibold">
-                    <span className="text-fuchsia-500">Join</span> World's{" "}
+                    <span className="text-fuchsia-500">Join</span> World&apos;s{" "}
                     <br />
                     largest learning <br /> platform today
                   </p>

@@ -16,9 +16,9 @@ const Footer = () => {
         <div className="flex flex-col justify-between items-start w-1/2 px-16">
           <p className="w-2/3 text-lg ">
             Have questions, feedback, or just want to say hello? <br />
-            We're here for you! Reach out to us anytime and let's start a
+            We&apos;re here for you! Reach out to us anytime and let&apos;s start a
             conversation about how we can help you on your journey to wellness.
-            Let's connect and explore the possibilities together.
+            Let&apos;s connect and explore the possibilities together.
           </p>
           <div className="w-96 py-4">
             <img src="/images/footer/footer-group.png" alt="" />
