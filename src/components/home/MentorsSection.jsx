@@ -27,6 +27,7 @@ const MentorsSection = () => {
                     alt=""
                     height={500}
                     width={200}
+                    quality={100}
                     className="object-contain w-full"
                   />
                 </div>

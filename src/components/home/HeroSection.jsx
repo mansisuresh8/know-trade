@@ -4,8 +4,8 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="h-screen flex flex-col justify-between items-center w-full">
-      <div className="relative flex justify-between items-center w-full h-full px-20 py-20">
-        <div className="text-6xl font-semibold ">
+      <div className="relative flex justify-between items-center w-2/3 lg:w-full h-full px-20 py-20">
+        <div className="text-4xl lg:text-6xl font-semibold">
           <p className="">THE ULTIMATE GUIDE</p>
           <p className="py-4">
             TO <span className="text-[#FF8CF1]">GLOBAL MARKETS</span>
@@ -39,7 +39,7 @@ const HeroSection = () => {
       </div>
       <section className="bg-gradient-to-l to-[#FF8CF1] from-[#992FFF] w-full">
         <div className="flex justify-center items-center w-full  py-16 ">
-          <div className="flex justify-between items-center gap-8 w-full container px-4 lg:px-20">
+          <div className="flex flex-col justify-between items-center gap-8 w-full container px-4 lg:px-20">
             <div className="flex flex-col justify-center items-center gap-1">
               <p className=" text-5xl font-bold">5+</p>
               <p>5+ Years of Trading Experience</p>

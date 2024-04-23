@@ -12,12 +12,12 @@ const HomePage = () => {
       <div className="pt-20">
 
       </div>
-      <HeroSection />
-      <AboutSection />
+      {/* <HeroSection /> */}
+      {/* <AboutSection />
       <CoursesSection />
       <MentorsSection />
       <WhyChooseUs />
-      <StudentFeedback />
+      <StudentFeedback /> */}
     </div>
   );
 };

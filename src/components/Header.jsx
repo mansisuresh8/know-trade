@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <section className="px-20 py-8 bg-[#070A29]">
-      <div className="flex justify-between items-center">
+    <section className="px-20 py-8 bg-[#070A29] w-full">
+      <div className="flex justify-between items-center w-full">
         <Link href={"/"}>
           <div className="w-32">
             <Image
@@ -16,7 +16,7 @@ const Header = () => {
             />
           </div>
         </Link>
-        <div className="flex justify-center items-center px-8 gap-8">
+        <div className="lg:flex justify-center items-center px-8 gap-8 hidden">
           <div className="flex justify-center items-center gap-6 text-xl">
             <p>About</p>
             <p>Courses</p>

@@ -7,7 +7,7 @@ const StudentFeedback = () => {
       <div className="bg-gradient-to-l to-[#FF8CF1] from-[#992FFF] px-8 py-8 gap-16 flex flex-col justify-between items-center">
         <div className="flex flex-col justify-center items-center w-3/4 gap-8">
           <section className=" flex justify-center items-center w-full">
-            <div className="flex flex-col justify-start items-start w-full">
+            <div className="flex flex-col justify-between lg:justify-start items-center lg:items-start w-full">
               <p className="text-5xl font-semibold py-4">Student Feedback</p>
               <p className="text-xl">
                 Various versions have evolved over the years, sometimes by
@@ -15,9 +15,9 @@ const StudentFeedback = () => {
               </p>
             </div>
           </section>
-          <section className="grid grid-cols-2 gap-8 w-full">
+          <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">
             <div className="relative flex justify-start items-start flex-col bg-white text-black border shadow-md rounded-2xl p-4">
-              <div className="flex justify-between items-center gap-8">
+              <div className="flex justify-between items-center gap-8 w-full">
                 <div>
                   <Image
                     src={"/images/home/student-feedback-1.png"}
@@ -28,13 +28,13 @@ const StudentFeedback = () => {
                   />
                 </div>
                 <div className="absolute top-4 right-4 ">
-                  <div className="w-24">
+                  <div className="w-10">
                     <Image
                       src={"/images/home/content.png"}
                       alt=""
                       height={100}
                       width={100}
-                      className="object-contain w-24"
+                      className="object-contain w-10"
                     />
                   </div>
                 </div>
@@ -68,13 +68,13 @@ const StudentFeedback = () => {
                 />
               </div>
               <div className="absolute top-4 right-4 ">
-                <div className="w-24">
+                <div className="w-10">
                   <Image
                     src={"/images/home/content.png"}
                     alt=""
                     height={100}
                     width={100}
-                    className="object-contain w-24"
+                    className="object-contain w-10"
                   />
                 </div>
               </div>
@@ -100,20 +100,21 @@ const StudentFeedback = () => {
         </div>
       </div>
 
-      <section className="flex justify-center items-center">
+      <section className="flex flex-col justify-center items-center">
         <div className="container px-4 lg:px-20 ">
-          <div className="flex justify-center items-center py-20 gap-4 w-full">
-            <div className="">
+          <div className="flex flex-col-reverse justify-center items-center py-20 gap-4 w-full">
+            <div className="w-80 lg:w-1/3">
               <Image
                 src={"/images/home/join-world.png"}
                 alt=""
                 height={400}
                 width={500}
+                quality={100}
                 className="object-contain w-full"
               />
             </div>
 
-            <section className="px-8 py-4 ">
+            <section className="px-8 py-4">
               <div className="px-8 py-4 ">
                 <div className="">
                   <p className="text-5xl font-semibold">
