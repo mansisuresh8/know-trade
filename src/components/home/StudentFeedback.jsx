@@ -100,9 +100,10 @@ const StudentFeedback = () => {
         </div>
       </div>
 
-      <section className="flex flex-col justify-center items-center">
+      <section className="flex justify-center items-center">
         <div className="container px-4 lg:px-20 ">
-          <div className="flex flex-col-reverse justify-center items-center py-20 gap-4 w-full">
+          <div className="flex flex-col justify-between items-start">
+          <div className=" flex justify-center items-start py-20 gap-4 w-full">
             <div className="w-80 lg:w-1/3">
               <Image
                 src={"/images/home/join-world.png"}
@@ -136,6 +137,8 @@ const StudentFeedback = () => {
               </div>
             </section>
           </div>
+          </div>
+         
         </div>
       </section>
     </div>

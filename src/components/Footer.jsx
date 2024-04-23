@@ -34,7 +34,7 @@ const Footer = () => {
           <p className="text-sm lg:text-xl">KnowTrade@gmail.com</p>
         </div>
       </div>
-      <section className="flex flex-col lg:flex-row justify-between items-center bg-[#B64AFC] w-full px-4 py-4">
+      {/* <section className="flex flex-col lg:flex-row justify-between items-center bg-[#B64AFC] w-full px-4 py-4">
         <div className="flex  flex-col lg:flex-row justify-between lg:items-start items-center w-full">
           <div className="flex flex-row justify-center items-center gap-4 w-64 lg:w-full">
             <p className="underline underline-offset-4 text-sm lg:text-lg">
@@ -54,7 +54,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </section>
   );
 };

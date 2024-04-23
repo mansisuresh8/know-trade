@@ -13,11 +13,11 @@ const HomePage = () => {
 
       </div>
       {/* <HeroSection /> */}
-      {/* <AboutSection />
-      <CoursesSection />
-      <MentorsSection />
-      <WhyChooseUs />
-      <StudentFeedback /> */}
+      {/* {/* <AboutSection /> */}
+      {/* <CoursesSection /> */}
+      {/* <MentorsSection /> */}
+      {/* <WhyChooseUs /> */}
+      <StudentFeedback /> 
     </div>
   );
 };
