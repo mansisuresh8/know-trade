@@ -3,13 +3,15 @@ import Image from "next/image";
 
 const StudentFeedback = () => {
   return (
-    <div>
-      <div className="bg-gradient-to-l to-[#FF8CF1] from-[#992FFF] px-8 py-8 gap-16 flex flex-col justify-between items-center">
-        <div className="flex flex-col justify-center items-center w-3/4 gap-8">
+    <div className="flex flex-col justify-center items-center w-full">
+      <div className="bg-gradient-to-l to-[#FF8CF1] from-[#992FFF] px-4 lg:px-8 py-8 gap-16 flex flex-col justify-between items-center">
+        <div className="flex flex-col justify-center items-center w-full lg:w-3/4 gap-8">
           <section className=" flex justify-center items-center w-full">
-            <div className="flex flex-col justify-between lg:justify-start items-center lg:items-start w-full">
-              <p className="text-5xl font-semibold py-4">Student Feedback</p>
-              <p className="text-xl">
+            <div className="flex flex-col justify-center lg:justify-start items-center lg:items-start w-full">
+              <p className="text-2xl lg:text-5xl font-semibold py-4">
+                Student Feedback
+              </p>
+              <p className="text-lg lg:text-xl text-center">
                 Various versions have evolved over the years, sometimes by
                 accident.
               </p>
@@ -100,45 +102,53 @@ const StudentFeedback = () => {
         </div>
       </div>
 
-      <section className="flex justify-center items-center">
+      <section className="flex justify-center items-center w-full">
         <div className="container px-4 lg:px-20 ">
           <div className="flex flex-col justify-between items-start">
-          <div className=" flex justify-center items-start py-20 gap-4 w-full">
-            <div className="w-80 lg:w-1/3">
-              <Image
-                src={"/images/home/join-world.png"}
-                alt=""
-                height={400}
-                width={500}
-                quality={100}
-                className="object-contain w-full"
-              />
-            </div>
-
-            <section className="px-8 py-4">
-              <div className="px-8 py-4 ">
-                <div className="">
-                  <p className="text-5xl font-semibold">
-                    <span className="text-fuchsia-500">Join</span> World&apos;s{" "}
-                    <br />
-                    largest learning <br /> platform today
-                  </p>
-                </div>
-
-                <p className="text-2xl py-8">
-                  Start learning by registering for free
-                </p>
-
-                <section className="w-full py-8">
-                  <div className="bg-gradient-to-l from-violet-500 to-fuchsia-500 text-white rounded-full border px-14 py-4 w-60 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-                    <button className="font-bold">Sign Up for Free</button>
-                  </div>
-                </section>
+            <div className=" flex justify-center items-start py-20 gap-4 w-full">
+              <div className="w-80 lg:w-1/3 hidden lg:block">
+                <Image
+                  src={"/images/home/join-world.png"}
+                  alt=""
+                  height={400}
+                  width={500}
+                  quality={100}
+                  className="object-contain w-full"
+                />
               </div>
-            </section>
+
+              <section>
+                <div className="px-4 lg:px-8 py-4 space-y-4 lg:space-y-8">
+                  <p className="text-2xl lg:text-5xl font-semibold text-center lg:text-start">
+                    <span className="text-fuchsia-500 font-bold">Join</span> World&apos;s{" "}
+                    <br className="hidden lg:block"/>
+                    largest learning <br className="hidden lg:block"/> platform today
+                  </p>
+
+                  <div className="w-80 lg:w-1/3 lg:hidden">
+                    <Image
+                      src={"/images/home/join-world.png"}
+                      alt=""
+                      height={400}
+                      width={500}
+                      quality={100}
+                      className="object-contain w-full"
+                    />
+                  </div>
+
+                  <p className="text-base lg:text-xl text-center">
+                    Start learning by registering for free
+                  </p>
+
+                  <section className="flex justify-center lg:justify-start items-center w-full pt-4">
+                    <div className="bg-gradient-to-l from-violet-500 to-fuchsia-500 text-white rounded-full border px-14 py-4 w-60 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+                      <button className="font-bold">Sign Up for Free</button>
+                    </div>
+                  </section>
+                </div>
+              </section>
+            </div>
           </div>
-          </div>
-         
         </div>
       </section>
     </div>
