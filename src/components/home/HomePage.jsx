@@ -15,7 +15,7 @@ const HomePage = () => {
       {/* <HeroSection /> */}
       {/* {/* <AboutSection /> */}
       {/* <CoursesSection /> */}
-      {/* <MentorsSection /> */}
+      <MentorsSection />
       <WhyChooseUs />
       <StudentFeedback /> 
     </div>
