@@ -9,8 +9,8 @@ import StudentFeedback from "./StudentFeedback";
 const HomePage = () => {
   return (
     <div>
-      <div className="pt-20"></div>
-      {/* <HeroSection /> */}
+      <div className="lg:pt-20"></div>
+      <HeroSection />
       <AboutSection />
       <CoursesSection />
       <MentorsSection />

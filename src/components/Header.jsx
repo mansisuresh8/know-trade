@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <section className="px-20 py-8 bg-[#070A29] w-full">
+    <section className="px-4 lg:px-20 py-4 lg:py-8 bg-[#070A29] w-full">
       <div className="flex justify-between items-center w-full">
         <Link href={"/"}>
-          <div className="w-32">
+          <div className="w-28 lg:w-32">
             <Image
               src={"/images/header/header-logo.png"}
               height={50}
