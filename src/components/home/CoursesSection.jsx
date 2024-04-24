@@ -5,17 +5,19 @@ const CoursesSection = () => {
   return (
     <section className="flex justify-center items-center bg-gradient-to-r to-[#FF8CF1] from-[#992FFF] w-full">
       <div className="flex justify-center items-center container px-4 lg:px-20 ">
-        <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center py-20 gap-4 lg:gap-16">
+        <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center py-10 lg:py-20 gap-4 lg:gap-16">
           <div className="w-full lg:w-1/3">
-            <p className="text-5xl font-bold">Our popular Courses</p>
-            <p className="text-xl py-8">
+            <p className="text-2xl lg:text-5xl font-bold lg:text-start text-center">
+              Our popular Courses
+            </p>
+            <p className="lg:text-xl py-4 lg:py-8 lg:text-start text-center">
               A course providing advance knowledge to students making them
               profitable independent traders. Learn what it takes to become a
               profitable trader. With hours of extensive training & mentorship,
               we help you navigate you through the steps of your journey to
               financial freedom.
             </p>
-            <section className="w-full py-8">
+            <section className="w-full py-8 hidden lg:block">
               <div className="bg-black text-white rounded-full border px-8 py-4 w-1/2  text-center  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
                 <button className="font-bold">Explore All</button>
               </div>
@@ -125,6 +127,11 @@ const CoursesSection = () => {
               </div>
             </div>
           </div>
+          <section className="flex justify-center items-center w-full py-8 lg:hidden">
+            <div className="bg-black text-white rounded-full border px-8 py-4 w-1/2  text-center  transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+              <button className="font-bold">Explore All</button>
+            </div>
+          </section>
         </div>
       </div>
     </section>
