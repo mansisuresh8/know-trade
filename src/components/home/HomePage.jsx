@@ -9,15 +9,13 @@ import StudentFeedback from "./StudentFeedback";
 const HomePage = () => {
   return (
     <div>
-      <div className="pt-20">
-
-      </div>
+      <div className="pt-20"></div>
       {/* <HeroSection /> */}
-      {/* {/* <AboutSection /> */}
+      <AboutSection />
       <CoursesSection />
       <MentorsSection />
       <WhyChooseUs />
-      <StudentFeedback /> 
+      <StudentFeedback />
     </div>
   );
 };
