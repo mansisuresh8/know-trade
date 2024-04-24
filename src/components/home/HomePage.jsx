@@ -16,7 +16,7 @@ const HomePage = () => {
       {/* {/* <AboutSection /> */}
       {/* <CoursesSection /> */}
       {/* <MentorsSection /> */}
-      {/* <WhyChooseUs /> */}
+      <WhyChooseUs />
       <StudentFeedback /> 
     </div>
   );

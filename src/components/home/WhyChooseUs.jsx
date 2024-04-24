@@ -5,13 +5,13 @@ const WhyChooseUs = () => {
   return (
     <section className="flex justify-center items-center w-full">
       <div className="container px-4 lg:px-20 ">
-        <div className="flex flex-col justify-center items-center py-20 gap-4">
-          <div className="flex justify-center items-center py-20">
+        <div className="flex flex-col justify-center items-center py-10 lg:py-20 gap-8 lg:gap-16">
+          <div className="flex justify-center items-center">
             <div>
-              <p className="text-5xl font-semibold text-center py-4">
+              <p className="text-2xl lg:text-5xl font-semibold text-center py-4">
                 WHY <span className=" text-[#992FFF]">CHOOSE US?</span>
               </p>
-              <p className="text-xl">
+              <p className="lg:text-xl text-center">
                 Various versions have evolved over the years, sometimes by
                 accident,
               </p>
